@@ -1,0 +1,15 @@
+# OpenSpec change working artifacts
+openspec/changes/
+openspec/changes/*/proposal.md
+openspec/changes/*/design.md
+openspec/changes/*/tasks.md
+openspec/changes/*/beads-commands.md
+openspec/changes/*/research.md
+
+# Zero-bloat — task artifacts never in Git
+*.tasks.jsonl
+*.tasks.md
+tasks.db
+tasks.sqlite
+.tasks/
+.beads/

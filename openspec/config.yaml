@@ -1,0 +1,7 @@
+schema: spec-driven
+
+context: |
+  Project: agent-template
+  Tech stack: General / multi-stack scaffold
+  Task hub: http://localhost:8000/sse (Docker — cd ~/mcp-task-hub && docker compose up -d)
+  Zero-bloat rule: task state in hub, observability in git notes (refs/notes/agent-log).
