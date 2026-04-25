@@ -4,7 +4,8 @@
     "task-hub": {
       "type": "remote",
       "url": "http://localhost:8000/sse",
-      "enabled": true
+      "enabled": true,
+      "_comment": "Hub runs via Docker. Start with: cd ~/mcp-task-hub && docker compose up -d. Change port if you edited HUB_PORT in .env."
     }
   }
 }

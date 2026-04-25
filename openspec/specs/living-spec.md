@@ -1,4 +1,4 @@
-# Living Spec — agent-template
+# Living Spec — PROJECT_NAME
 
 > Source of truth for requirements. Agents parse this file to sync tasks
 > to the MCP Task Hub. Mark requirements complete here as work lands.

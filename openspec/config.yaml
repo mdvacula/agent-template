@@ -1,7 +1,14 @@
 schema: spec-driven
 
 context: |
-  Project: agent-template
-  Tech stack: General / multi-stack scaffold
+  Project: PROJECT_NAME
+  Tech stack: TECH_STACK
   Task hub: http://localhost:8000/sse (Docker — cd ~/mcp-task-hub && docker compose up -d)
   Zero-bloat rule: task state in hub, observability in git notes (refs/notes/agent-log).
+
+# Uncomment and fill in after cloning:
+# rules:
+#   proposal:
+#     - Keep proposals under 500 words
+#   tasks:
+#     - Break tasks into chunks under 2 hours
