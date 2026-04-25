@@ -19,11 +19,10 @@ Ready-to-clone scaffold for agentic projects using **OpenCode** and **pi**.
 | `AGENTS.md` | Workflow reference for all agents |
 | `opencode.json` | OpenCode config — MCP Task Hub endpoint |
 | `.opencode/agents/` | hub-runner, hub-orchestrator, openspec-orchestrator |
-| `.opencode/skills/` | OpenSpec skills + agentic-setup skill |
+| `.opencode/skills/` | OpenSpec skills |
 | `.opencode/commands/` | OpenSpec slash commands (`/opsx-*`) |
-| `.pi/agents/` | hub-runner, hub-orchestrator, openspec-orchestrator |
-| `.pi/skills/` | OpenSpec skills + agentic-setup skill |
-| `.pi/prompts/` | OpenSpec slash commands (`/opsx-*`) |
+| `.pi/skills/` | OpenSpec skills |
+| `.pi/prompts/` | OpenSpec prompts (`/opsx-*`) + `/hub-run` |
 | `openspec/specs/living-spec.md` | Living Spec starter |
 | `openspec/config.yaml` | OpenSpec schema + context |
 
