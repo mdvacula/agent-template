@@ -1,4 +1,4 @@
-# Agent Workflow — agent-template
+# Agent Workflow — PROJECT_NAME
 
 This repo uses **Git Notes** (agent observability), **MCP Task Hub** (centralized
 task state), **OpenSpec** (living specs), **OpenCode** and **pi** (agents, skills, commands).
