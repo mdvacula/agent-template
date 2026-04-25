@@ -806,3 +806,36 @@ $(git diff --cached --name-only)"
 Then open a pull request against `agent-template/main`.
 The PR description should list which source files changed and link to the
 triggering commit in `agent-kit`.
+
+---
+
+## B6 — Write PR metadata
+
+After all file changes are written (before or instead of committing), write:
+
+### `/tmp/pr-title.txt`
+
+A single line, plain text PR title describing what **actually changed** in this sync.
+
+- Good: `feat(template): add hub-run prompt and wire OpenCode agents`
+- Good: `fix(template): update SKILL.md with pr-title/pr-body output requirement`
+- Bad: `chore(template): sync from agent-kit <sha>`
+
+Base the title on the diff — what files changed and why.
+
+### `/tmp/pr-body.md`
+
+A markdown PR body with these sections:
+
+```markdown
+## What changed
+- bullet list of the specific files added/updated and why
+
+## Why
+one or two sentences explaining what this sync enables or fixes
+
+## Source
+Triggered by commit: https://github.com/mdvacula/agent-kit/commit/<sha>
+```
+
+Substitute the real triggering commit SHA into the URL.
