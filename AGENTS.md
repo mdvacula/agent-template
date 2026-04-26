@@ -42,7 +42,7 @@ git config --add remote.origin.fetch '+refs/notes/*:refs/notes/*'
 ## MCP Quick Reference
 
 | Tool | Usage |
-|------|-------|
+|-------|-------|
 | `fetch_tasks(status="pending")` | Get work queue |
 | `fetch_tasks(id="<id>")` | Get single task |
 | `update_task_status(id, "in-progress")` | Claim a task |
